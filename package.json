@@ -1,6 +1,6 @@
 {
   "name": "bind-action-creators",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Turns an object whose values are action creators, into an object with the same keys, but with every action creator wrapped into a dispatch call so they may be invoked directly.",
   "license": "MIT",
   "repository": "github:jedmao/bind-action-creators",
