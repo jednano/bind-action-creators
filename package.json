@@ -128,14 +128,15 @@
   "publicConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "tslib": "^1"
+  "peerDependencies": {
+    "@types/react": "^16"
   },
   "devDependencies": {
     "@commitlint/cli": "^8",
     "@commitlint/config-conventional": "^8",
     "@istanbuljs/nyc-config-typescript": "^0",
     "@jedmao/semantic-release-npm-github-config": "^1",
+    "@types/react": "^16",
     "@typescript-eslint/eslint-plugin": "^2",
     "@typescript-eslint/parser": "^2",
     "ava": "^2",

@@ -17,6 +17,25 @@ Turns an object whose values are action creators, into an object with the same
 keys, but with every action creator wrapped into a dispatch call so they may be
 invoked directly.
 
+## Installation
+
+```bash
+npm install bind-action-creators
+```
+
+## Usage
+
+```ts
+import bindActionCreators = require('bind-action-creators')
+
+const actionCreators = {
+  fetchFoo: dispatch => Promise.resolve([]),
+  fetchBar: dispatch => Promise.resolve([]),
+}
+
+const bound = bindActionCreators(actionCreators /*, dispatch */)
+```
+
 ## Scripts
 
 The following [npm scripts](https://docs.npmjs.com/misc/scripts) are made
